@@ -88,10 +88,10 @@ python app.py
 
 ### 🌐 Utilisation
 
-1- Lancez le backend (http://localhost:5001)
-2- Lancez le frontend (http://localhost:3000)
-3- Créez un nouveau sondage ou consultez les sondages existants
-4- Partagez l'URL du sondage avec vos participants
+1. Lancez le backend (http://localhost:5001)
+2. Lancez le frontend (http://localhost:3000)
+3. Créez un nouveau sondage ou consultez les sondages existants
+4. Partagez l'URL du sondage avec vos participants
 
 ### 🔒 Sécurité
 
