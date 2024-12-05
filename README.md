@@ -1,4 +1,4 @@
-# VotePoll - Application de Sondages Moderne
+# EasyVote - Application de Sondages Moderne
 
 [![React](https://img.shields.io/badge/React-18.3.1-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-Non%20Commercial-red.svg)](LICENSE)
 
 ## 📝 Description
-VotePoll est une application web moderne permettant de créer et gérer des sondages de manière simple et efficace. Elle offre une interface utilisateur intuitive et réactive, avec une protection contre les votes multiples grâce à une empreinte digitale du navigateur.
+EasyVote est une application web moderne permettant de créer et gérer des sondages de manière simple et efficace. Elle offre une interface utilisateur intuitive et réactive, avec une protection contre les votes multiples grâce à une empreinte digitale du navigateur.
 
 ## 🚀 Fonctionnalités
 - ✨ Création de sondages personnalisés
