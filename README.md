@@ -70,7 +70,7 @@ barto95100/easyvote-backend -> [Ici](https://hub.docker.com/r/barto95100/easyvot
 * linux/arm64
 
 ## 💻 Installation
-
+## Manuel
 ### Frontend
 ```bash
 cd frontend
@@ -86,6 +86,31 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## Docker
+```yaml
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app_network
+    environment:
+      - VITE_API_URL=http://backend:5001
+
+  backend:
+    build: ./backend
+    networks:
+      - app_network
+    volumes:
+      - ./backend/data:/app/data
+
+networks:
+  app_network:
+    driver: bridge
+```
 ### 🌐 Utilisation
 
 1. Lancez le backend (http://localhost:5001)
