@@ -104,9 +104,10 @@ Protection contre les votes multiples:
 ### 🎯 Optimisations
 
 Bundle size optimisé avec Vite
-Lazy loading des composants
-Mise en cache des résultats
-Compression des assets
+
+* Lazy loading des composants
+* Mise en cache des résultats
+* Compression des assets
 
 ### 🤝 Contribution
 
@@ -132,7 +133,8 @@ Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 Barto_95 - Développeur principal - @barto95100
 
 ### 🙏 Remerciements
-React pour le framework frontend
-Flask pour le framework backend
-Docker pour la conteneurisation
-Tous les contributeurs/utilisateurs qui participent et/ou utilisent ce projet ! 🤗
+* React pour le framework frontend
+* Flask pour le framework backend
+* Docker pour la conteneurisation
+
+👀 Tous les contributeurs/utilisateurs qui participent et/ou utilisent ce projet ! 🤗
