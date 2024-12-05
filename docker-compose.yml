@@ -1,22 +1,48 @@
+version: '3.8'
+
 services:
   frontend:
-    build: ./frontend
+    image: barto95100/easyvote-frontend:latest
+    # Alternative: build depuis les sources
+    # build:
+    #   context: ./frontend
+    #   dockerfile: Dockerfile
     ports:
       - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:5001
     depends_on:
       - backend
     networks:
-      - app_network
-    environment:
-      - VITE_API_URL=http://backend:5001
+      - easyvote_network
+    restart: unless-stopped
 
   backend:
-    build: ./backend
-    networks:
-      - app_network
+    image: barto95100/easyvote-backend:latest
+    # Alternative: build depuis les sources
+    # build:
+    #   context: ./backend
+    #   dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
     volumes:
-      - ./backend/data:/app/data
+      - easyvote_data:/app/data
+      - easyvote_logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - CORS_ORIGINS=http://localhost:3000
+    networks:
+      - easyvote_network
+    restart: unless-stopped
+
+volumes:
+  easyvote_data:
+    name: easyvote_data
+  easyvote_logs:
+    name: easyvote_logs
 
 networks:
-  app_network:
+  easyvote_network:
+    name: easyvote_network
     driver: bridge
