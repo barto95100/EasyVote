@@ -66,8 +66,8 @@ barto95100/easyvote-frontend -> [Ici](https://hub.docker.com/r/barto95100/easyvo
 ### Backend : 
 barto95100/easyvote-backend -> [Ici](https://hub.docker.com/r/barto95100/easyvote-backend)
 ### Support multi-architecture :
-linux/amd64
-linux/arm64
+* linux/amd64
+* linux/arm64
 
 ## 💻 Installation
 
