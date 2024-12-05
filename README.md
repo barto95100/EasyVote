@@ -95,10 +95,11 @@ Partagez l'URL du sondage avec vos participants
 
 ### 🔒 Sécurité
 
-Protection contre les votes multiples via fingerprinting du navigateur
-Validation des données côté serveur
-Protection CSRF
-Sanitization des entrées utilisateur
+Protection contre les votes multiples:
+
+* Validation des données côté serveur
+* Protection CSRF
+* Sanitization des entrées utilisateur
 
 ### 🎯 Optimisations
 
