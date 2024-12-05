@@ -71,13 +71,13 @@ barto95100/easyvote-backend -> [Ici](https://hub.docker.com/r/barto95100/easyvot
 
 ## 💻 Installation
 ## Manuel
-### Frontend
+#### Frontend
 ```bash
 cd frontend
 pnpm install
 pnpm start
 ```
-### Backend
+#### Backend
 ```bash
 cd backend
 python -m venv venv
