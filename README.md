@@ -36,7 +36,7 @@ VotePoll est une application web moderne permettant de créer et gérer des sond
 
 ## 🏗 Structure du Projet
 ```
-vote-app/
+easyvote/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -68,14 +68,6 @@ barto95100/easyvote-backend
 ### Support multi-architecture :
 linux/amd64
 linux/arm64
-
-## 📖 Documentation
-La documentation complète est disponible dans le Wiki :
-
-- [Guide de démarrage](./Guides/Getting-Started)
-- [Documentation API](./API-Documentation/Overview)
-- [Guide d'intégration Frontend](./Frontend-Integration)
-- [Guide d'intégration Backend](./Backend-Integration)
 
 ## 💻 Installation
 
