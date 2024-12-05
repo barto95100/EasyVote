@@ -62,9 +62,9 @@ easyvote/
 Les images Docker sont disponibles sur Docker Hub :
 
 ### Frontend : 
-barto95100/easyvote-frontend
+barto95100/easyvote-frontend -> [Ici](https://hub.docker.com/r/barto95100/easyvote-frontend)
 ### Backend : 
-barto95100/easyvote-backend
+barto95100/easyvote-backend -> [Ici](https://hub.docker.com/r/barto95100/easyvote-backend)
 ### Support multi-architecture :
 linux/amd64
 linux/arm64
@@ -88,10 +88,10 @@ python app.py
 
 ### 🌐 Utilisation
 
-Lancez le backend (http://localhost:5001)
-Lancez le frontend (http://localhost:3000)
-Créez un nouveau sondage ou consultez les sondages existants
-Partagez l'URL du sondage avec vos participants
+1- Lancez le backend (http://localhost:5001)
+2- Lancez le frontend (http://localhost:3000)
+3- Créez un nouveau sondage ou consultez les sondages existants
+4- Partagez l'URL du sondage avec vos participants
 
 ### 🔒 Sécurité
 
